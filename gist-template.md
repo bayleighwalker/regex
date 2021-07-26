@@ -1,10 +1,15 @@
-# Title (replace with your title)
+# Regex Tutorial
+A regex, (or regular expression), is a set of characters that defines a search pattern. A regex can be used within code and/or an algorithm to find (or find and replace) specific character patterns within a string. For example, one can identify phone numbers, email addresses, URLs, etc by using a regex. A regex can also be used to validate user input.
 
-Introductory paragraph (replace this with your text)
+This tutorial was created as an assignment for the University of Arizona's coding bootcamp. The purpose of this tutorial is to explain in detail how a specific regex functions by breaking down each part of the expression and describing what it does.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+This tutorial will examine each character in the following regex in order to explain its overall function:
+
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+
+This regex matches an email. It can therefore be used to find email addresses within a string of text, verify that a user has entered a valid email address, etc.
 
 ## Table of Contents
 
@@ -21,11 +26,7 @@ Briefly summarize the regex you will be describing and what you will explain. In
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
-''A regular expression (shortened as regex or regexp; also referred to as rational expression) is a sequence of characters that specifies a search pattern. Usually such patterns are used by string-searching algorithms for "find" or "find and replace" operations on strings, or for input validation. It is a technique developed in theoretical computer science and formal language theory.''
 
-In this gist, we will introduce JavaScript regular expressions using the following RegEx for matching an email address.
-
-/^([a-z0-9_.-]+)@([\da-z.-]+).([a-z.]{2,6})$/ We will dissect the above RegEx into components and elaborate on each
 
 ### Anchors
 
